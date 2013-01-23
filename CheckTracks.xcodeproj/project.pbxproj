@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1752009C16AFD4B600805067 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1752009B16AFD4B600805067 /* Cocoa.framework */; };
+		1752009E16AFD4B600805067 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1752009D16AFD4B600805067 /* AppleScriptObjC.framework */; };
+		175200A816AFD4B600805067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175200A616AFD4B600805067 /* InfoPlist.strings */; };
+		175200AA16AFD4B600805067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 175200A916AFD4B600805067 /* main.m */; };
+		175200AE16AFD4B600805067 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 175200AC16AFD4B600805067 /* Credits.rtf */; };
+		175200B016AFD4B600805067 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 175200AF16AFD4B600805067 /* AppDelegate.applescript */; };
+		175200B316AFD4B600805067 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 175200B116AFD4B600805067 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1752009716AFD4B600805067 /* CheckTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1752009B16AFD4B600805067 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1752009D16AFD4B600805067 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		175200A016AFD4B600805067 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		175200A116AFD4B600805067 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		175200A216AFD4B600805067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		175200A516AFD4B600805067 /* CheckTracks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckTracks-Info.plist"; sourceTree = "<group>"; };
+		175200A716AFD4B600805067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		175200A916AFD4B600805067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		175200AB16AFD4B600805067 /* CheckTracks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckTracks-Prefix.pch"; sourceTree = "<group>"; };
+		175200AD16AFD4B600805067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		175200AF16AFD4B600805067 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		175200B216AFD4B600805067 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1752009416AFD4B600805067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1752009C16AFD4B600805067 /* Cocoa.framework in Frameworks */,
+				1752009E16AFD4B600805067 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1752008C16AFD4B600805067 = {
+			isa = PBXGroup;
+			children = (
+				175200A316AFD4B600805067 /* CheckTracks */,
+				1752009A16AFD4B600805067 /* Frameworks */,
+				1752009816AFD4B600805067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1752009816AFD4B600805067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1752009716AFD4B600805067 /* CheckTracks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1752009A16AFD4B600805067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1752009B16AFD4B600805067 /* Cocoa.framework */,
+				1752009D16AFD4B600805067 /* AppleScriptObjC.framework */,
+				1752009F16AFD4B600805067 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1752009F16AFD4B600805067 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175200A016AFD4B600805067 /* AppKit.framework */,
+				175200A116AFD4B600805067 /* CoreData.framework */,
+				175200A216AFD4B600805067 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		175200A316AFD4B600805067 /* CheckTracks */ = {
+			isa = PBXGroup;
+			children = (
+				175200AF16AFD4B600805067 /* AppDelegate.applescript */,
+				175200B116AFD4B600805067 /* MainMenu.xib */,
+				175200A416AFD4B600805067 /* Supporting Files */,
+			);
+			path = CheckTracks;
+			sourceTree = "<group>";
+		};
+		175200A416AFD4B600805067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175200A516AFD4B600805067 /* CheckTracks-Info.plist */,
+				175200A616AFD4B600805067 /* InfoPlist.strings */,
+				175200A916AFD4B600805067 /* main.m */,
+				175200AB16AFD4B600805067 /* CheckTracks-Prefix.pch */,
+				175200AC16AFD4B600805067 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1752009616AFD4B600805067 /* CheckTracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175200B616AFD4B600805067 /* Build configuration list for PBXNativeTarget "CheckTracks" */;
+			buildPhases = (
+				1752009316AFD4B600805067 /* Sources */,
+				1752009416AFD4B600805067 /* Frameworks */,
+				1752009516AFD4B600805067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckTracks;
+			productName = CheckTracks;
+			productReference = 1752009716AFD4B600805067 /* CheckTracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1752008E16AFD4B600805067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Philipp Ackermann";
+			};
+			buildConfigurationList = 1752009116AFD4B600805067 /* Build configuration list for PBXProject "CheckTracks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1752008C16AFD4B600805067;
+			productRefGroup = 1752009816AFD4B600805067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1752009616AFD4B600805067 /* CheckTracks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1752009516AFD4B600805067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175200A816AFD4B600805067 /* InfoPlist.strings in Resources */,
+				175200AE16AFD4B600805067 /* Credits.rtf in Resources */,
+				175200B316AFD4B600805067 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1752009316AFD4B600805067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175200AA16AFD4B600805067 /* main.m in Sources */,
+				175200B016AFD4B600805067 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		175200A616AFD4B600805067 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175200A716AFD4B600805067 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		175200AC16AFD4B600805067 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175200AD16AFD4B600805067 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		175200B116AFD4B600805067 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175200B216AFD4B600805067 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175200B416AFD4B600805067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		175200B516AFD4B600805067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		175200B716AFD4B600805067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckTracks/CheckTracks-Prefix.pch";
+				INFOPLIST_FILE = "CheckTracks/CheckTracks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		175200B816AFD4B600805067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckTracks/CheckTracks-Prefix.pch";
+				INFOPLIST_FILE = "CheckTracks/CheckTracks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1752009116AFD4B600805067 /* Build configuration list for PBXProject "CheckTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175200B416AFD4B600805067 /* Debug */,
+				175200B516AFD4B600805067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175200B616AFD4B600805067 /* Build configuration list for PBXNativeTarget "CheckTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175200B716AFD4B600805067 /* Debug */,
+				175200B816AFD4B600805067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1752008E16AFD4B600805067 /* Project object */;
+}
