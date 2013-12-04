@@ -3,7 +3,7 @@ checktracks
 
 CheckTracks is an OSX App written in AppleScript to clean-up iTunes tracks
 
-CleanTracks is written in AppleScript and uses the scripting API of iTunes to read and write 
+CheckTracks is written in AppleScript and uses the scripting API of iTunes to read and write 
 meta data into the local music collection. Music meta data is collected from web services 
 provided by MusicBrainz, Discogs, and iTunes store.  
 
